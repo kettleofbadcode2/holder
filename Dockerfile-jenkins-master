@@ -1,4 +1,6 @@
-FROM jenkins/jenkins:2.240-alpine
+FROM docker:19.03.12
+FROM jenkins/jenkins:2.250-alpine
+
 
 ENV JENKINS_USER admin
 ENV JENKINS_PASS admin
