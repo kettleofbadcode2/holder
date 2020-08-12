@@ -1,4 +1,3 @@
-FROM docker:19.03.12
 FROM jenkins/jenkins:2.250-alpine
 
 
